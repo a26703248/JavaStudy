@@ -7,6 +7,7 @@ import java.util.stream.Stream;
 public class CopyContructor {
   public static void main(String[] args) {
     // same Object and Memory location
+    // 指向相同物件
     System.out.println("======== same Object and Memory location ========");
     Person before = new Person("Grace");
     List<Person> people = Stream.of(before)
@@ -27,6 +28,7 @@ public class CopyContructor {
     }
 
     // not same Object and Memory location, but same attributes
+    // 複製的物件
     System.out.println("======== not same Object and Memory location ========");
 
     people = Stream.of(before)

@@ -8,6 +8,8 @@ public class VarargsContructor {
   public static void main(String[] args) {
     String[] names = { "Allan Walker", "Howard A", "Jary A", "Mary B", "Hellen C", "John D", "Jeason E" };
 
+    // Varargs Contructor
+    // 可變參數建構子
     List<Person> people = Arrays.stream(names)
         .map(name -> name.split(" "))
         .map(Person::new)
