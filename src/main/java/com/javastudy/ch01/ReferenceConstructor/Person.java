@@ -1,4 +1,4 @@
-package com.javastudy.ch01;
+package com.javastudy.ch01.ReferenceConstructor;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;
@@ -13,14 +13,17 @@ public class Person {
     this.name = p.name;
   }
 
+
+  public Person(String name) {
+    this.name = name;
+  }
+
   // Varargs Construct
   public Person(String... names) {
     this.name = Arrays.stream(names)
         .collect(Collectors.joining(" "));
-  }
-
-  public Person(String name) {
-    this.name = name;
+    System.out.println("======= Person Construct =======");
+    System.out.println("Varargs ctor, names=" + Arrays.toString(names));
   }
 
   public String getName() {

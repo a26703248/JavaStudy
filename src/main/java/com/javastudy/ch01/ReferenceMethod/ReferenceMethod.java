@@ -1,6 +1,5 @@
-package com.javastudy.ch01;
+package com.javastudy.ch01.ReferenceMethod;
 
-import java.util.Optional;
 import java.util.stream.Stream;
 
 public class ReferenceMethod {

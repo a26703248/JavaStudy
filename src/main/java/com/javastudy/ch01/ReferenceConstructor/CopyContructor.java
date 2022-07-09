@@ -1,4 +1,4 @@
-package com.javastudy.ch01;
+package com.javastudy.ch01.ReferenceConstructor;
 
 import java.util.List;
 import java.util.stream.Collectors;
