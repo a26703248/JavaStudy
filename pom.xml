@@ -1,4 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.javastudy</groupId>
   <artifactId>javastudy</artifactId>
@@ -15,10 +19,14 @@
     <jacoco-maven-plugin.version>0.8.4</jacoco-maven-plugin.version>
     <maven-javadoc-plugin.version>3.0.0</maven-javadoc-plugin.version>
     <!-- JaCoCo thresholds. Increase gradually as you add tests. -->
-    <jacoco.unit-tests.limit.instruction-ratio>0%</jacoco.unit-tests.limit.instruction-ratio>
-    <jacoco.unit-tests.limit.branch-ratio>0%</jacoco.unit-tests.limit.branch-ratio>
-    <jacoco.unit-tests.limit.class-complexity>20</jacoco.unit-tests.limit.class-complexity>
-    <jacoco.unit-tests.limit.method-complexity>5</jacoco.unit-tests.limit.method-complexity>
+    <jacoco.unit-tests.limit.instruction-ratio>0%
+    </jacoco.unit-tests.limit.instruction-ratio>
+    <jacoco.unit-tests.limit.branch-ratio>0%
+    </jacoco.unit-tests.limit.branch-ratio>
+    <jacoco.unit-tests.limit.class-complexity>20
+    </jacoco.unit-tests.limit.class-complexity>
+    <jacoco.unit-tests.limit.method-complexity>5
+    </jacoco.unit-tests.limit.method-complexity>
   </properties>
   <dependencies>
     <dependency>
@@ -125,7 +133,8 @@
                     <limit>
                       <counter>INSTRUCTION</counter>
                       <value>COVEREDRATIO</value>
-                      <minimum>${jacoco.unit-tests.limit.instruction-ratio}</minimum>
+                      <minimum>${jacoco.unit-tests.limit.instruction-ratio}
+                      </minimum>
                     </limit>
                     <limit>
                       <counter>BRANCH</counter>
@@ -140,7 +149,8 @@
                     <limit>
                       <counter>COMPLEXITY</counter>
                       <value>TOTALCOUNT</value>
-                      <maximum>${jacoco.unit-tests.limit.class-complexity}</maximum>
+                      <maximum>${jacoco.unit-tests.limit.class-complexity}
+                      </maximum>
                     </limit>
                   </limits>
                 </rule>
@@ -150,7 +160,8 @@
                     <limit>
                       <counter>COMPLEXITY</counter>
                       <value>TOTALCOUNT</value>
-                      <maximum>${jacoco.unit-tests.limit.method-complexity}</maximum>
+                      <maximum>${jacoco.unit-tests.limit.method-complexity}
+                      </maximum>
                     </limit>
                   </limits>
                 </rule>

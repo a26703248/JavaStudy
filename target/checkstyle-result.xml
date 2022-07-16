@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.39">
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch01/FunctionalInterface/DemoFunctional.java">
+<error line="1" column="9" severity="error" message="Name &apos;com.javastudy.ch01.FunctionalInterface&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="5" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="7" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="12" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="12" column="1" severity="error" message="Top-level class defaultMethod has to reside in its own source file." source="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck"/>
+<error line="13" column="11" severity="error" message="Name &apos;defaultMethod&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="14" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="16" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="16" column="26" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="17" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" column="31" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="21" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="27" column="1" severity="error" message="Top-level class MyChildInterface has to reside in its own source file." source="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck"/>
+<error line="27" column="50" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="29" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch01/Lambda/AnonymousClass.java">
+<error line="1" column="9" severity="error" message="Name &apos;com.javastudy.ch01.Lambda&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="3" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="4" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="4" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="8" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="8" column="30" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="9" column="7" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 6, expected level should be one of the following: 8, 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="9" column="24" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="10" column="9" severity="error" message="&apos;method def&apos; child has incorrect indentation level 8, expected level should be one of the following: 12, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="11" column="7" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 6, expected level should be one of the following: 8, 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="16" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch01/ReferenceMethod/ReferenceMethod.java">
+<error line="1" column="9" severity="error" message="Name &apos;com.javastudy.ch01.ReferenceMethod&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="5" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="5" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="6" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="6" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="7" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="11" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="12" column="9" severity="error" message="&apos;method call&apos; child has incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="14" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" column="38" severity="error" message="&apos;3&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="18" column="41" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="18" column="44" severity="error" message="&apos;7&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="18" column="47" severity="error" message="&apos;8&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="18" column="50" severity="error" message="&apos;6&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="22" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="24" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="28" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" column="9" severity="error" message="&apos;method call&apos; child has incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="31" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch01/FunctionalDefaultMethod/DiamondProblem.java">
+<error line="1" column="9" severity="error" message="Name &apos;com.javastudy.ch01.FunctionalDefaultMethod&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" column="8" severity="error" message="Unused import - java.util.Collection." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="4" column="1" severity="error" message="Wrong order for &apos;java.util.AbstractCollection&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="4" column="8" severity="error" message="Unused import - java.util.AbstractCollection." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="6" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="6" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="7" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="10" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="13" column="1" severity="error" message="Top-level class Animal has to reside in its own source file." source="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck"/>
+<error line="14" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="17" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="17" column="1" severity="error" message="Top-level class Horse has to reside in its own source file." source="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck"/>
+<error line="19" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="25" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="25" column="1" severity="error" message="Top-level class Bird has to reside in its own source file." source="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck"/>
+<error line="26" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="28" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="29" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch01/FunctionalDefaultMethod/DefaultMethodExample.java">
+<error line="1" column="9" severity="error" message="Name &apos;com.javastudy.ch01.FunctionalDefaultMethod&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="6" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="6" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="7" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="7" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="8" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="8" column="40" severity="error" message="&apos;3&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="8" column="46" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="8" column="52" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="8" column="55" severity="error" message="&apos;9&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="10" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="10" column="44" severity="error" message="&apos;&lt;=&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="11" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="11" column="50" severity="error" message="&apos;?&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="14" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch01/FunctionalDefaultMethod/InterfaceDefaultMethod.java">
+<error line="1" column="9" severity="error" message="Name &apos;com.javastudy.ch01.FunctionalDefaultMethod&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="3" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="4" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="4" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="5" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="6" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="7" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="8" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="9" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="12" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="12" column="1" severity="error" message="Top-level class Employee has to reside in its own source file." source="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck"/>
+<error line="13" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="14" column="3" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="14" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="16" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="16" column="3" severity="error" message="Redundant &apos;public&apos; modifier." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="18" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" column="27" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="19" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="23" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="23" column="1" severity="error" message="Top-level class Company1 has to reside in its own source file." source="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck"/>
+<error line="23" column="35" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="25" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="28" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="33" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="35" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="37" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="38" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="41" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="41" column="1" severity="error" message="Top-level class Company2 has to reside in its own source file." source="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck"/>
+<error line="41" column="35" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="43" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="45" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="46" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="48" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="50" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="51" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="53" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="55" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="56" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="58" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="58" column="26" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="59" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="60" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch01/InterfaceStaticMethod/InterfaceStatic.java">
+<error line="1" column="9" severity="error" message="Name &apos;com.javastudy.ch01.InterfaceStaticMethod&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="8" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="8" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="14" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="14" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="15" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="19" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="23" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="31" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="35" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="38" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="39" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="43" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="47" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="48" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="50" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch01/ReferenceConstructor/ReferenceConstructor.java">
+<error line="1" column="9" severity="error" message="Name &apos;com.javastudy.ch01.ReferenceConstructor&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="7" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="7" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="8" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="8" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="12" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" column="5" severity="error" message="&apos;.&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="14" column="5" severity="error" message="&apos;.&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="15" column="5" severity="error" message="&apos;.&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="19" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" column="5" severity="error" message="&apos;.&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="5" severity="error" message="&apos;.&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" column="5" severity="error" message="&apos;.&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="24" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch01/ReferenceConstructor/Person.java">
+<error line="1" column="9" severity="error" message="Name &apos;com.javastudy.ch01.ReferenceConstructor&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="6" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="7" column="3" severity="error" message="&apos;member def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="9" column="3" severity="error" message="&apos;ctor def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="10" column="3" severity="error" message="&apos;ctor def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="12" column="3" severity="error" message="&apos;ctor def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" column="5" severity="error" message="&apos;ctor def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="14" column="3" severity="error" message="&apos;ctor def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="17" column="3" severity="error" message="&apos;CTOR_DEF&apos; has more than 1 empty lines before." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="17" column="3" severity="error" message="&apos;ctor def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" column="5" severity="error" message="&apos;ctor def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="19" column="3" severity="error" message="&apos;ctor def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" column="3" severity="error" message="&apos;ctor def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="23" column="5" severity="error" message="&apos;ctor def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="25" column="5" severity="error" message="&apos;ctor def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="26" column="5" severity="error" message="&apos;ctor def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" column="3" severity="error" message="&apos;ctor def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="29" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="31" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="33" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="34" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="35" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch01/ReferenceConstructor/StreamArrays.java">
+<error line="1" column="9" severity="error" message="Name &apos;com.javastudy.ch01.ReferenceConstructor&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="4" column="8" severity="error" message="Unused import - java.util.List." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="6" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="6" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="7" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="7" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="8" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="11" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="15" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="16" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch01/ReferenceConstructor/VarargsContructor.java">
+<error line="1" column="9" severity="error" message="Name &apos;com.javastudy.ch01.ReferenceConstructor&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="7" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="7" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="8" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="8" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="9" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="9" column="22" severity="error" message="&apos;{&apos; is followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck"/>
+<error line="13" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="17" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch01/ReferenceConstructor/CopyContructor.java">
+<error line="1" column="9" severity="error" message="Name &apos;com.javastudy.ch01.ReferenceConstructor&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="7" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="7" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="8" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="8" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="11" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="12" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="15" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="17" column="5" severity="error" message="&apos;if&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" column="7" severity="error" message="&apos;if&apos; child has incorrect indentation level 6, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="19" column="5" severity="error" message="&apos;if rcurly&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" column="7" severity="error" message="&apos;else&apos; child has incorrect indentation level 6, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="5" severity="error" message="&apos;else rcurly&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="23" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="24" column="5" severity="error" message="&apos;if&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="25" column="7" severity="error" message="&apos;if&apos; child has incorrect indentation level 6, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="26" column="5" severity="error" message="&apos;if rcurly&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" column="7" severity="error" message="&apos;else&apos; child has incorrect indentation level 6, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="28" column="5" severity="error" message="&apos;else rcurly&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="34" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="38" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="39" column="5" severity="error" message="&apos;if&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="40" column="7" severity="error" message="&apos;if&apos; child has incorrect indentation level 6, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="41" column="5" severity="error" message="&apos;if rcurly&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="42" column="7" severity="error" message="&apos;else&apos; child has incorrect indentation level 6, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="43" column="5" severity="error" message="&apos;else rcurly&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="45" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="46" column="5" severity="error" message="&apos;if&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="47" column="7" severity="error" message="&apos;if&apos; child has incorrect indentation level 6, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="48" column="5" severity="error" message="&apos;if rcurly&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="49" column="7" severity="error" message="&apos;else&apos; child has incorrect indentation level 6, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="50" column="5" severity="error" message="&apos;else rcurly&apos; has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="53" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch02/PredicateDemo.java">
+<error line="7" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="8" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="8" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="10" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="10" column="56" severity="error" message="&apos;3&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="11" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="14" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="15" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="17" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" column="74" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="19" column="7" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 6, expected level should be one of the following: 8, 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" column="39" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="21" column="9" severity="error" message="&apos;method def&apos; child has incorrect indentation level 8, expected level should be one of the following: 12, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="33" severity="error" message="&apos;3&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="22" column="7" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 6, expected level should be one of the following: 8, 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="24" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="26" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="28" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="28" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="29" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="34" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="34" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="35" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="38" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="42" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="42" column="1" severity="error" message="Top-level class ImplementPredicate has to reside in its own source file." source="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck"/>
+<error line="43" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="43" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="45" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="48" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="51" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="51" column="1" severity="error" message="Top-level class MyPredicate has to reside in its own source file." source="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch02/ConsumerDemo.java">
+<error line="7" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="7" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="8" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="8" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="9" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="10" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="10" column="43" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="11" column="7" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 6, expected level should be one of the following: 8, 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="12" column="35" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="9" severity="error" message="&apos;method def&apos; child has incorrect indentation level 8, expected level should be one of the following: 12, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="14" column="7" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 6, expected level should be one of the following: 8, 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="16" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="27" column="1" severity="error" message="Top-level class MyConsumer has to reside in its own source file." source="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck"/>
+<error line="46" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="46" column="1" severity="error" message="Top-level class MyIterable has to reside in its own source file." source="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch02/FunctionDemo.java">
+<error line="3" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="3" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="4" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="6" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/main/java/com/javastudy/ch02/SupplierDemo.java">
+<error line="11" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="11" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="12" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="12" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="13" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="15" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="16" column="7" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 6, expected level should be one of the following: 8, 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" column="9" severity="error" message="&apos;method def&apos; child has incorrect indentation level 8, expected level should be one of the following: 12, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="19" column="7" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 6, expected level should be one of the following: 8, 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="23" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="24" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="28" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="34" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="35" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="37" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="41" column="5" severity="error" message="&apos;method def&apos; child has incorrect indentation level 4, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="42" column="7" severity="error" message="&apos;block&apos; child has incorrect indentation level 6, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="45" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="56" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="56" column="1" severity="error" message="Top-level class MySupplier has to reside in its own source file." source="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck"/>
+</file>
+<file name="/home/howard/javastudy/src/test/java/com/javastudy/AppTest.java">
+</file>
+<file name="/home/howard/javastudy/src/test/java/com/javastudy/ch02/JunitPredicate.java">
+<error line="3" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="4" column="3" severity="error" message="&apos;member def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="5" column="3" severity="error" message="&apos;member def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="7" column="3" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="10" column="3" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 2, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+</checkstyle>
